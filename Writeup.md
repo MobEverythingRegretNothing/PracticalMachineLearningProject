@@ -26,7 +26,11 @@ traininSubset <- subset(training, select=colMeans(is.na(x)) == 0)
 Doing some analysis on the data looks like a lot of it is movement data related to the x, y, z dimensions, and much of the 
 difference in grading comes being within a particular region and the further away from that region you go the worse the grade. Looking at 
 the various factors it seems like we can reduce the number of factors based on how similar they are. There are also a fair amount of predictors missing data, 
-meaning we will have to be careful which predictors to choose, and make sure to exclude from the model any such predictors
+meaning we will have to be careful which predictors to choose, and make sure to exclude from the model any such predictors.
+
+Below is an example of some plots I used to look at groupings/clusterings of data
+
+[ExamplePredictors](./Analysis.png)
 
 _Predictor Analysis_:
 * Gyros_Forearm measurements are clearly defined in clusters and could be used as a good predictor. Also no missing data.
