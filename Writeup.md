@@ -30,7 +30,7 @@ meaning we will have to be careful which predictors to choose, and make sure to 
 
 Below is an example of some plots I used to look at groupings/clusterings of data
 
-[ExamplePredictors](./Analysis.png)
+[](./Analysis.png)
 
 _Predictor Analysis_:
 * Gyros_Forearm measurements are clearly defined in clusters and could be used as a good predictor. Also no missing data.
